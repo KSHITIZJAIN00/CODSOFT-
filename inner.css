@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+    background-color: #072131;
+    
+
+}
+
+body{
+    color:white;
+
+}
+.header{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    padding : 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color:white;
+}
+.logo{
+    position: relative;
+    font-size: 25 px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.navbar{
+    display: inline-block;
+    font-size:25px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35;
+    transition: .3s;
+    
+}
+.navbar a:hover{
+    color:#0ef;
+}
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: centre;
+    padding : 70px 10% 0 ;
+}
+.home-content{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Change to flex-start to align to the top */
+    align-items: flex-start; /* Change to flex-start to align to the left */
+    height: 100vh;
+    padding-left: 20px; /* Add left padding for spacing from the left edge */
+    text-align: left;
+}
+
+.home-content h3{
+    font-size:  32px;
+    font-weight: 700 ;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0 ;
+}
+.header{
+    color: white;
+}
